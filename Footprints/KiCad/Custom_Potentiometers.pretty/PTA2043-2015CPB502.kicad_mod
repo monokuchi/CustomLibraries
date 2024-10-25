@@ -78,6 +78,34 @@
 		(layer "F.SilkS")
 		(uuid "9395e0db-a3cd-4ae9-8f59-ac01b0a93c83")
 	)
+	(pad "" np_thru_hole circle
+		(at -6 -29.35)
+		(size 0.001 0.001)
+		(drill 1.7)
+		(layers "*.Mask")
+		(uuid "2e9b915e-602c-487c-a382-a773dcf6fc8b")
+	)
+	(pad "" np_thru_hole circle
+		(at -6 -4.15)
+		(size 0.001 0.001)
+		(drill 1.7)
+		(layers "*.Mask")
+		(uuid "20be5b68-d406-4ab3-8ab6-caf4f51a7125")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.5 -28.15)
+		(size 0.001 0.001)
+		(drill 1.7)
+		(layers "*.Mask")
+		(uuid "970a2733-386b-4c7d-8549-2872df3087b2")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.5 -5.35)
+		(size 0.001 0.001)
+		(drill 1.7)
+		(layers "*.Mask")
+		(uuid "2a1159b9-427b-406c-9b35-23446d7029a3")
+	)
 	(pad "1" thru_hole circle
 		(at 0 -33.5)
 		(size 2 2)
@@ -102,41 +130,9 @@
 		(remove_unused_layers no)
 		(uuid "0bb81daa-b37f-4046-8581-f3a1b57f6075")
 	)
-	(pad "4" thru_hole circle
-		(at 2.5 -5.35)
-		(size 0.001 0.001)
-		(drill 1.7)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "2a1159b9-427b-406c-9b35-23446d7029a3")
-	)
-	(pad "5" thru_hole circle
-		(at 2.5 -28.15)
-		(size 0.001 0.001)
-		(drill 1.7)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "970a2733-386b-4c7d-8549-2872df3087b2")
-	)
-	(pad "6" thru_hole circle
-		(at -6 -4.15)
-		(size 0.001 0.001)
-		(drill 1.7)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "20be5b68-d406-4ab3-8ab6-caf4f51a7125")
-	)
-	(pad "7" thru_hole circle
-		(at -6 -29.35)
-		(size 0.001 0.001)
-		(drill 1.7)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "2e9b915e-602c-487c-a382-a773dcf6fc8b")
-	)
-	(model "/home/john/Documents/KiCad/CustomLibraries/3DModels/PTA2043-2015CPB502.3dshapes/PTA2043-2015CPB502.stp"
+	(model "${KIPRJMOD}/CustomLibraries/3DModels/Custom_Potentiometers/PTA2043-2015CPB502.3dshapes/PTA2043-2015CPB502.stp"
 		(offset
-			(xyz -1.8 16.8 6.6)
+			(xyz -1.8 16.75 6.6)
 		)
 		(scale
 			(xyz 1 1 1)
