@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 16.51 7.62 0)
+			(at 4.572 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "ACJS-MHDR"
-			(at 16.51 5.08 0)
+			(at 4.572 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,9 +136,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 20.32 -5.08 180)
 				(length 5.08)
-				(name "1"
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -154,9 +154,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at 0 -5.08 0)
 				(length 5.08)
-				(name "2"
+				(name "R"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -172,9 +172,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 0)
+				(at 0 -2.54 0)
 				(length 5.08)
-				(name "3"
+				(name "T"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -190,9 +190,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 0)
+				(at 20.32 -2.54 180)
 				(length 5.08)
-				(name "4"
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -208,9 +208,9 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 0 180)
+				(at 0 -7.62 0)
 				(length 5.08)
-				(name "5"
+				(name "R"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -226,9 +226,9 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -2.54 180)
+				(at 0 0 0)
 				(length 5.08)
-				(name "6"
+				(name "T"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -243,9 +243,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -5.08 180)
-				(length 5.08)
+			(pin no_connect line
+				(at 10.16 -15.24 90)
+				(length 5.08) hide
 				(name "7"
 					(effects
 						(font
