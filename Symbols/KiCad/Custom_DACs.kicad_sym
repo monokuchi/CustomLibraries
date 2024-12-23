@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 33.02 10.16 0)
+			(at 33.02 14.224 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "AD9767ASTZRL"
-			(at 33.02 7.62 0)
+			(at 33.02 11.684 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "ST_48_ADI"
-			(at 0 0 0)
+			(at 33.02 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "AD9767ASTZRL"
-			(at 0 0 0)
+			(at 33.02 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,54 +81,6 @@
 			)
 		)
 		(symbol "AD9767ASTZRL_0_1"
-			(polyline
-				(pts
-					(xy 7.62 -63.5) (xy 58.42 -63.5)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -63.5)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 58.42 -63.5) (xy 58.42 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 58.42 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin unspecified line
 				(at 0 0 0)
 				(length 7.62)
@@ -991,6 +943,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "AD9767ASTZRL_1_1"
+			(rectangle
+				(start 7.62 5.08)
+				(end 58.42 -63.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
