@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 16.256 25.654 0)
+			(at 17.78 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "IS45S16800F-7TLA2"
-			(at 16.256 23.114 0)
+			(at 17.78 16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Memory:SOP80P1176X120-54N"
-			(at 9.144 17.526 0)
+			(at 10.16 -83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Description" "DRAM Automotive (-40 to +105C), 128M, 3.3V, SDRAM, 8Mx16, 143Mhz, 54 pin TSOP II (400 mil) RoHS"
-			(at 30.48 19.558 0)
+			(at 31.496 -81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
