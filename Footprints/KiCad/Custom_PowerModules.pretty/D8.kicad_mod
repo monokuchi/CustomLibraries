@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "REF5010AID ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -3.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b12a38d8-f546-454c-b20c-9049df7897c5")
@@ -84,6 +84,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "b9c0fbed-c701-476a-a291-a64d2ce6ddca")
+	)
+	(fp_circle
+		(center -2.7 -2.8)
+		(end -2.6 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "631e5bb0-4b34-430b-85b7-b159ece2381d")
 	)
 	(fp_line
 		(start -3.702799 -2.438)
@@ -577,29 +588,6 @@
 		(uuid "8d760d0b-f9ed-417e-8848-9c99c928f629")
 	)
 	(fp_text user "*"
-		(at -2.97535 -3.606 0)
-		(layer "F.SilkS")
-		(uuid "256b9ad3-ddf9-4d7a-9a84-1e0d239977aa")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.97535 -3.606 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "2c26bdeb-2312-45f0-9ea6-4bd8d9e88bee")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
 		(at -1.6129 -2.4257 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -682,7 +670,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b8d38763-d5ea-452d-ba70-48b1a0228065")
 	)
-	(model "${KIPRJMOD}/CustomLibraries/3DModels/Custom_VoltageReferences/REF5010AIDR.3dshapes/REF5010AIDR.stp"
+	(model "${KIPRJMOD}/CustomLibraries/3DModels/Custom_PowerModules/D0008A.3dshapes/D0008A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "AD8065ARZ-REEL7 ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -3.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "110c0918-c65c-402f-806c-28737848e689")
@@ -84,6 +84,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "19f33abd-29ef-4434-91bd-152d81aa21d2")
+	)
+	(fp_circle
+		(center -2.5 -2.6)
+		(end -2.4 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e9e632c6-28e8-48f3-8049-69dc6d1053ee")
 	)
 	(fp_line
 		(start -3.3504 -2.2606)
@@ -575,29 +586,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "7c110bff-9817-4321-80cb-91614c45cee9")
-	)
-	(fp_text user "*"
-		(at -2.6678 -3.556 0)
-		(layer "F.SilkS")
-		(uuid "361cc994-b323-4407-8fab-19275180c7a5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.6678 -3.556 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "a143f0cb-25b9-4097-8640-880e3acf9e9e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "*"
 		(at -1.6129 -2.4257 0)

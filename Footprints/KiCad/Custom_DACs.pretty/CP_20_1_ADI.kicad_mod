@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "AD5445YCPZ ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -3.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ac3a200d-9251-430e-9211-cd92b6cfd947")
@@ -144,6 +144,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "88b3bc85-df37-42b4-9959-6d58333fc449")
+	)
+	(fp_circle
+		(center -2.6 -1.7)
+		(end -2.5 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "1a5e8f42-fff7-48f2-b2fe-fd5ea552eb00")
 	)
 	(fp_poly
 		(pts
@@ -1258,29 +1269,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "0e2d9d35-4574-41bc-a9ee-563f81559af8")
-	)
-	(fp_text user "*"
-		(at -2.928899 -1.25 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "13af05ad-7af9-4326-9f04-0b12b45b1668")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.928899 -1.25 0)
-		(layer "F.SilkS")
-		(uuid "56af7713-a1be-4e56-9368-49e5849d3bbe")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "*"
 		(at -1.2319 -1.25 0)

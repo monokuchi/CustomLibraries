@@ -6,7 +6,7 @@
 	(descr "54L 400mil TSOP-2_2023")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 0 -12.6 0)
 		(layer "F.SilkS")
 		(uuid "5b901e7b-6a47-427e-a11d-25a12a1bc86a")
 		(effects
