@@ -1,0 +1,236 @@
+(footprint "ECS2520MVQ240BSTR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ECS-2520MVQ-240-BS-TR-2")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "5b6797f8-0054-4a81-82b3-cbe88d836307")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ECS2520MVQ240BSTR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "35b9e782-d542-41c4-b777-f981513cae3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3275123f-3275-456a-b492-5af7d3c0a4ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d8de1f4-1227-4782-8b46-0682013274c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d24d816b-0e41-4a60-ae1e-ae386ccfa8af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9 0.8)
+		(end -1.9 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef9b76cd-5c55-4af6-ad0a-d201654bb18c")
+	)
+	(fp_line
+		(start -1.8 0.8)
+		(end -1.8 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9dccf233-8c8c-4b14-9abc-a460541e4de5")
+	)
+	(fp_arc
+		(start -1.9 0.8)
+		(mid -1.85 0.75)
+		(end -1.8 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78a4c001-90ed-4cc5-81cb-1738909203ff")
+	)
+	(fp_arc
+		(start -1.8 0.8)
+		(mid -1.85 0.85)
+		(end -1.9 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be16fe7e-3bbc-42aa-9d0b-c01cc6c76db8")
+	)
+	(fp_line
+		(start -2.375 -2.125)
+		(end 2.375 -2.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fefff3b-29f3-420e-b865-6d92c554eaa3")
+	)
+	(fp_line
+		(start -2.375 2.125)
+		(end -2.375 -2.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9d8bb27-d549-4677-a6a8-7ad3778ea455")
+	)
+	(fp_line
+		(start 2.375 -2.125)
+		(end 2.375 2.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db6ba6a8-3359-4523-bf13-2d687e611334")
+	)
+	(fp_line
+		(start 2.375 2.125)
+		(end -2.375 2.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4cbf01d2-7dd8-4ee0-9cef-59cbf54966a3")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1afd1b18-f39b-41f0-b3fe-a42bd4d68163")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29cfac53-aed8-4583-877b-306e36748c56")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6af7547-56dd-4dcd-afc2-f87014537596")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3d7f035-1d1a-41c8-84cb-a4aa80dfe35d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cfc37ab6-c069-4e78-b790-954c3346b38e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.925 0.725 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cb05ca8c-223e-4b2d-84d2-c5f1bfb731e2")
+	)
+	(pad "2" smd rect
+		(at 0.925 0.725 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "39c6fecd-1367-4688-86ce-79cad5236383")
+	)
+	(pad "3" smd rect
+		(at 0.925 -0.725 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6d7f0962-265a-45a4-b803-a4179813b195")
+	)
+	(pad "4" smd rect
+		(at -0.925 -0.725 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ea68b439-ccb1-4bd4-8132-98761cbe1858")
+	)
+	(model "${KIPRJMOD}/CustomLibraries/3DModels/Custom_Oscillators/ECS-2520MVQ-240-BS-TR.3dshapes/ECS-2520MVQ-240-BS-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

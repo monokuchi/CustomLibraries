@@ -1,0 +1,256 @@
+(footprint "INS66TBTRGB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IN-S66TBTRGB-2")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "9e563922-b88b-42d2-a388-aabc392e3e2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "INS66TBTRGB"
+		(at -0.275 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5e117d57-9bf5-4906-a206-4789af556e5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af9baf7c-7ffd-471b-9dcc-b579b5bd6f81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efd60582-371a-4556-a7bd-c0f57d83f661")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5102cbc-7166-4ed3-8e4c-2d0349470cc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -0.5)
+		(end -1.6 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5e35919-1bef-4732-9a6e-4df2175f217b")
+	)
+	(fp_line
+		(start -1.6 -0.3)
+		(end -1.6 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f53aaa1-5f90-448d-a9c8-d3128379d63d")
+	)
+	(fp_line
+		(start -0.1 -0.75)
+		(end 0.1 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb1ce53d-8722-4f38-b4c6-20fffb9adde4")
+	)
+	(fp_line
+		(start -0.1 0.75)
+		(end 0.1 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91f71e17-a185-4921-80dd-6ee276ea063d")
+	)
+	(fp_arc
+		(start -1.6 -0.5)
+		(mid -1.5 -0.4)
+		(end -1.6 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfb01249-32fb-4ec2-9437-84a985dc4a92")
+	)
+	(fp_arc
+		(start -1.6 -0.3)
+		(mid -1.7 -0.4)
+		(end -1.6 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02b67f4e-8697-4fce-bf29-5f14376f9469")
+	)
+	(fp_line
+		(start -2.2 -1.25)
+		(end 1.65 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3dca9403-1c86-4a27-93f7-54625f766fd8")
+	)
+	(fp_line
+		(start -2.2 1.25)
+		(end -2.2 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c7012c0-6f94-4c30-af46-d0587c34f2c7")
+	)
+	(fp_line
+		(start 1.65 -1.25)
+		(end 1.65 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f328252a-dcd4-45b7-822d-6e32054d6431")
+	)
+	(fp_line
+		(start 1.65 1.25)
+		(end -2.2 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a43cd34e-20c4-4dfb-975a-4e651e1a37cd")
+	)
+	(fp_line
+		(start -0.8 -0.75)
+		(end 0.8 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2422173-d1d4-4671-85e8-c977a358cc41")
+	)
+	(fp_line
+		(start -0.8 0.75)
+		(end -0.8 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86c4acb7-2fbb-4ff8-bdc7-85eb7e209025")
+	)
+	(fp_line
+		(start 0.8 -0.75)
+		(end 0.8 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a50dcfc9-2ffe-48ed-bc22-7fc6df0da0c3")
+	)
+	(fp_line
+		(start 0.8 0.75)
+		(end -0.8 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13a37a1e-b026-4441-ba3b-4cf5fd27db73")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.275 0 0)
+		(layer "F.Fab")
+		(uuid "ed9938fc-9a46-4cc9-bf4b-f636829f0652")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 -0.425 90)
+		(size 0.65 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6d5e49ff-7695-4048-9ea5-5c7a965e96e3")
+	)
+	(pad "2" smd rect
+		(at 0.75 -0.425 90)
+		(size 0.65 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8c2b4f1d-dd77-4091-b3fa-ef1fe1d56f5b")
+	)
+	(pad "3" smd rect
+		(at -0.75 0.425 90)
+		(size 0.65 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ac354edf-e45c-4b2c-8dd5-9f6ea00c7174")
+	)
+	(pad "4" smd rect
+		(at 0.75 0.425 90)
+		(size 0.65 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1e1860ea-419c-46ec-aed0-dac0bb10e70d")
+	)
+	(model "${KIPRJMOD}/CustomLibraries/3DModels/Custom_LEDs/IN-S66TBTRGB.3dshapes/IN-S66TBTRGB.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
