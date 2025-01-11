@@ -486,7 +486,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.254 9.652 0)
+			(at -0.254 9.144 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -494,7 +494,7 @@
 			)
 		)
 		(property "Value" "OPA2810IDGKR"
-			(at -0.254 7.112 0)
+			(at -0.254 6.604 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -502,7 +502,7 @@
 			)
 		)
 		(property "Footprint" "DGK0008A_N"
-			(at 0 -8.89 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -512,7 +512,7 @@
 			)
 		)
 		(property "Datasheet" "OPA2810IDGKR"
-			(at 0 -7.112 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,7 +522,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 3.81 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,43 +559,7 @@
 		(symbol "OPA2810IDGKR_1_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08)
+					(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
 				)
 				(stroke
 					(width 0)
@@ -606,9 +570,9 @@
 				)
 			)
 			(pin output line
-				(at 10.16 0 180)
+				(at 11.43 0 180)
 				(length 5.08)
-				(name "OUT"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -624,7 +588,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
+				(at -8.89 2.54 0)
 				(length 5.08)
 				(name "IN-"
 					(effects
@@ -642,7 +606,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -2.54 0)
+				(at -8.89 -2.54 0)
 				(length 5.08)
 				(name "IN+"
 					(effects
@@ -663,43 +627,7 @@
 		(symbol "OPA2810IDGKR_2_1"
 			(polyline
 				(pts
-					(xy -4.064 -2.54) (xy -2.54 -2.54)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.064 2.54) (xy -2.54 2.54)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 -1.778) (xy -3.302 -3.302)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08)
+					(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
 				)
 				(stroke
 					(width 0)
@@ -710,7 +638,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -2.54 0)
+				(at -8.89 -2.54 0)
 				(length 5.08)
 				(name "IN+"
 					(effects
@@ -728,7 +656,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
+				(at -8.89 2.54 0)
 				(length 5.08)
 				(name "IN-"
 					(effects
@@ -746,9 +674,9 @@
 				)
 			)
 			(pin output line
-				(at 10.16 0 180)
+				(at 11.43 0 180)
 				(length 5.08)
-				(name "OUT"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -766,8 +694,8 @@
 		)
 		(symbol "OPA2810IDGKR_3_1"
 			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -5.08)
+				(start -2.54 3.81)
+				(end 2.54 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -777,7 +705,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 0 180)
+				(at -7.62 -2.54 0)
 				(length 5.08)
 				(name "V-"
 					(effects
@@ -795,7 +723,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 0 0)
+				(at -7.62 2.54 0)
 				(length 5.08)
 				(name "V+"
 					(effects
