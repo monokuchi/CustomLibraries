@@ -1,0 +1,158 @@
+(footprint "ASPIAIG-F6060"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "L**"
+		(at 0 -7.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "84b320f2-08d0-463f-941d-2d891300fbab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ASPIAIG-F6060"
+		(at 0 2.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3aa5f177-737f-47f8-9d69-f3f013c6348d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b21982d1-df04-4e05-913f-d47ede8155bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d07aeb2c-c686-411f-9c3e-557b5c0347c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5028de7-269f-4b78-948a-7c081738ec96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -6.1)
+		(end -3.5 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3419c03b-ea5f-4ea2-bf9e-72a740fddfdc")
+	)
+	(fp_line
+		(start 3.5 -6.1)
+		(end 3.5 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50a48d33-b150-4d3c-b0dd-15cfd13fc224")
+	)
+	(fp_rect
+		(start -3.8 -6.6)
+		(end 3.8 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "256b7a2b-1c89-43a3-a967-a9688adc48ca")
+	)
+	(fp_line
+		(start -3.2 -6.2)
+		(end 3.2 -6.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9772929-85dc-4fa7-9a7c-5fb4449aecae")
+	)
+	(fp_line
+		(start 3.2 0.6)
+		(end -3.2 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01e001be-8995-4a5d-9929-f362a9fa62f8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "963f7167-25c8-4d0e-9060-87a50cc692d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.05 -4.8 90)
+		(size 1.55 5.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.08620689655)
+		(uuid "d580084b-4f6a-49a7-9796-305cef1e0ff6")
+	)
+	(pad "2" smd roundrect
+		(at -0.05 -0.75 90)
+		(size 1.55 5.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.08620689655)
+		(uuid "fd3c2eaa-0888-402e-949f-1ce2dac869b8")
+	)
+	(model "${KIPRJMOD}/CustomLibraries/3DModels/Custom_Inductors/ASPIAIG-F6060.3dshapes/ASPIAIG-F6060.STEP"
+		(offset
+			(xyz 0 2.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

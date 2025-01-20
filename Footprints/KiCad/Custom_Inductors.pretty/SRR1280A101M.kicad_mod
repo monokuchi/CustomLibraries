@@ -1,0 +1,202 @@
+(footprint "SRR1280A101M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SRR1280A-101M")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 -7.9 0)
+		(layer "F.SilkS")
+		(uuid "f4e9635c-2959-4ccc-be36-956dfd9375bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SRR1280A101M"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "62cfcfa3-46e6-4aab-b515-e4df3fe14357")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f20603b4-3498-4c76-9aa9-0846ea1f2219")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f21fefb-bdfd-437d-af6f-c0546538f9af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67181c04-1bbe-4e73-8213-5c7c4e879845")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.25 -6.25)
+		(end -6.25 6.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45defa9b-8bc0-4efe-b35c-7278fd84a3ff")
+	)
+	(fp_line
+		(start 6.25 -6.25)
+		(end 6.25 6.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60dd2e58-ffff-49a6-b777-bf1ff6fcb8e3")
+	)
+	(fp_line
+		(start -6.75 -6.8)
+		(end 6.75 -6.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6026e792-9b88-415a-a686-9ac5fd779cbd")
+	)
+	(fp_line
+		(start -6.75 6.8)
+		(end -6.75 -6.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a5c23d6-7390-4ee4-9813-81126025221e")
+	)
+	(fp_line
+		(start 6.75 -6.8)
+		(end 6.75 6.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df9c277f-7c27-480f-b2a5-7a583d2b3abd")
+	)
+	(fp_line
+		(start 6.75 6.8)
+		(end -6.75 6.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc167dc0-0cf8-4af7-bd8e-d620ae7e8a4f")
+	)
+	(fp_line
+		(start -6.25 -6.25)
+		(end 6.25 -6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2edf7a2-6309-4596-ac1a-bb3b39a3235e")
+	)
+	(fp_line
+		(start -6.25 6.25)
+		(end -6.25 -6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d03b9d9f-fd04-4742-bfac-3bfa35968142")
+	)
+	(fp_line
+		(start 6.25 -6.25)
+		(end 6.25 6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4cb14d61-f882-4e8c-8a08-51690cd36e8b")
+	)
+	(fp_line
+		(start 6.25 6.25)
+		(end -6.25 6.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0747666c-a706-4da3-82da-2f4907f8dd6a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "193fb5bf-1053-4581-9f8a-d963e83982f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -4.85 90)
+		(size 2.9 5.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "da89fd85-78ea-4e07-90df-d1c59b01728c")
+	)
+	(pad "2" smd rect
+		(at 0 4.85 90)
+		(size 2.9 5.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4239f119-59f6-4dd0-97ad-1ea597d7ec8c")
+	)
+	(model "${KIPRJMOD}/CustomLibraries/3DModels/Custom_Inductors/SRR1280A-100M.3dshapes/SRR1280A-100M.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
